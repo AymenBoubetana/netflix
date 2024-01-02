@@ -1,0 +1,53 @@
+.center-text{
+  display:flex;
+  padding-top: 20px;
+  align-items: center;
+  flex-direction: column;
+text-align: center;
+}
+.center-text h1{
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  padding:0;
+  justify-content: center;
+  margin-bottom: -10px;
+}
+.center-text p{
+  color: white;
+}
+.pepe{
+  font-size:24px ;
+  margin-bottom: -1px;
+ 
+}
+.pee{
+  font-size: 16px;
+  color: azure;
+}
+.info-nav{
+  max-width:900px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+}
+.Register{
+  width:400px;
+  padding:13px;
+ 
+  outline: none;
+ 
+  border-color: antiquewhite;
+
+}
+.info-nav button{
+  width:130px;
+  background-color: red;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+
+
+}

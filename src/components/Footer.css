@@ -1,0 +1,17 @@
+.footer{
+  background-color: black;
+  width:100%;
+  height:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer h2{
+  text-align: center;
+  font-weight: 700;
+ 
+  color:white;
+}
+.footer h2 span{
+  color:crimson;
+}

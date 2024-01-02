@@ -1,0 +1,42 @@
+.containerr{
+  max-width:100vw;
+  height:70vh;
+  color:white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:0 auto;
+  padding:0 30px;
+  position: relative;
+  margin-top: -40px;
+}
+
+.containerr::after{
+  content: '';
+  width:100%;
+  height:3px;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  border-bottom: solid 3px ;
+  left:0;
+  bottom:10px;
+}
+.Text {
+  text-align: center;
+
+}
+.Text h1{
+  font-size: 45px;
+  font-weight: 300;
+}
+.Text h3{
+  font-size: 31px;
+  font-weight: 200;
+}
+img{
+  width:40%;
+  object-fit: cover;
+  
+}

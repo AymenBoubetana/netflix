@@ -1,0 +1,60 @@
+.Nav-bar{
+  max-width:100%;
+  padding:10px;
+ 
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:1;
+  overflow: hidden;
+}
+.img-logo{
+  width:200px;
+  object-fit: cover;
+}
+.Nav-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:20px;
+  padding-right: 20px;
+}
+.button-trans{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  background-color: transparent;
+  height:30px;
+  padding:12px;
+  cursor: pointer;
+  border-color: azure;
+  text-align: center;
+}
+.button-trans img{
+  width:14px;
+  height: 14px;
+  object-fit: cover;
+  margin-right: 5px;
+ 
+
+ 
+ 
+}
+.button-trans p{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+   margin-top: 12px;
+}
+.Sign-up{
+  color:white;
+  background-color:red;
+  border:none;
+  outline: none;
+  border-radius: 14px;
+  padding:9px 30px;
+  cursor: pointer;
+
+}
